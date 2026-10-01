@@ -1,0 +1,60 @@
+{
+  "name": "@jscpd/fs-extra-linux-x64-gnu",
+  "version": "0.1.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "fs-extra.linux-x64-gnu.node",
+  "files": [
+    "fs-extra.linux-x64-gnu.node"
+  ],
+  "description": "fs-extra 11.4.1 API implemented as a native Node.js addon in Rust (napi-rs). Experimental.",
+  "keywords": [
+    "fs",
+    "file",
+    "file system",
+    "copy",
+    "directory",
+    "extra",
+    "mkdirp",
+    "mkdir",
+    "mkdirs",
+    "recursive",
+    "json",
+    "read",
+    "write",
+    "delete",
+    "remove",
+    "touch",
+    "create",
+    "text",
+    "output",
+    "move",
+    "promise",
+    "native",
+    "rust",
+    "napi"
+  ],
+  "author": "Andrey Kucherenko <kucherenko.andrey@gmail.com>",
+  "homepage": "https://github.com/kucherenko/fs-extra-rs#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kucherenko/fs-extra-rs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kucherenko/fs-extra-rs/issues"
+  },
+  "libc": [
+    "glibc"
+  ]
+}

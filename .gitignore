@@ -1,0 +1,12 @@
+/target/
+/vendor/
+node_modules/
+*.node
+.jscpd-compare/
+.nyc_output/
+coverage/
+index.js.orig
+
+.idea
+*.iml
+npm-debug.logartifacts/
