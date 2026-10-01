@@ -6,7 +6,11 @@ This package is experimental. An AI coding agent wrote it in one session as part
 
 ## Usage
 
-The package is not on npm yet. Once it is, it works as a drop-in replacement:
+```sh
+npm install @jscpd/fs-extra
+```
+
+It works as a drop-in replacement for fs-extra:
 
 ```js
 const fse = require('@jscpd/fs-extra')
